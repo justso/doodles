@@ -1,8 +1,13 @@
 @font-face {
-    font-family: 'Fredoka One';
+    font-family: 'Webfont.1';
     font-style: normal;
-    font-weight: 400;
-    src: local('Fredoka One'), local('FredokaOne-Regular'), url(FredokaOne-Regular.woff) format('woff');
+    font-weight: normal;
+    /*
+    src: local('Webfont'), local('Webfont.1'), url(Webfont.1.woff) format('woff');
+    src: local('MuseoSlab'), local('MuseoSlab-500'), url(MuseoSlab-500.woff) format('woff');
+    src: local('FredokaOne'), local('FredokaOne-Regular'), url(FredokaOne-Regular.woff) format('woff');
+    */
+    src: local('MuseoSlab'), local('MuseoSlab-500'), url(MuseoSlab-500.woff) format('woff');
 }
 
 #hplogo {
@@ -32,7 +37,7 @@
     text-align: center;
 }
 #hplogo_sb, #hplogo_sle {
-    font: 28px 'Fredoka One', arial, sans;
+    font: 28px 'Webfont.1', arial, sans;
 }
 .hplogo_sse {
     cursor: text;
@@ -192,7 +197,7 @@ html {
 }
 .fred, .fred * {
     color: white;
-    font: 28px 'Fredoka One', arial, sans;
+    font: 28px 'Webfont.1', arial, sans;
     list-style: none;
     text-decoration: none;
     text-shadow: gray 0px 1px 7px;
