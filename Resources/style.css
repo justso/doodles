@@ -190,8 +190,10 @@ body {
 html {
     background-color: gray;
 }
-.fred * {
-    color: black;
-    font: 32px 'Fredoka One', arial, sans;
+.fred, .fred * {
+    color: white;
+    font: 30px 'Fredoka One', arial, sans;
+    list-style: none;
     text-decoration: none;
+    text-shadow: gray 0px 1px 7px;
 }
