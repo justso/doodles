@@ -179,7 +179,7 @@
     background-color: white;
     padding: 2em;
     border-radius: 3em;
-    box-shadow: 1em 2em .25em #111;
+    box-shadow: .5em 1.25em .25em #555;
     min-width: 600px;
     max-width: 900px;
 }
@@ -192,8 +192,17 @@ html {
 }
 .fred, .fred * {
     color: white;
-    font: 30px 'Fredoka One', arial, sans;
+    font: 28px 'Fredoka One', arial, sans;
     list-style: none;
     text-decoration: none;
     text-shadow: gray 0px 1px 7px;
 }
+.fred a:hover, span.fred {
+    color: red;
+    text-shadow: gray 0px 1px 7px , black 0px -1px 0px;
+}
+span.fred {
+    color: gray;
+}
+
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
