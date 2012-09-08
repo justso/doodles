@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style type="text/css">
+            #hplogo, #hplogo_main,
+            #hplogo_cnt, #hplogo_spc {
+                display: inline-block;
+                outline: none;
+                position: relative;
+                -moz-user-select: -moz-none;
+                -ms-user-select: none;
+                -webkit-user-select: none
+            }
+            #hplogo, #hplogo_main {
+                overflow: hidden;
+                text-align: left;
+                text-decoration: none;
+            }
+            #hplogo_cnt, #hplogo_spc {
+                background: transparent;
+                height: 20px;
+                padding-left: 2px;
+                width: 20px
+            }
+            #hplogo, #hplogo_sc, #hplogo_pc {
+                height: 220px;
+                width: 440px
+            }
+            #hplogo_main {
+                background: url(startrek/startrek12-hp.jpg) no-repeat;
+                height: 220px;
+                width: 375px
+            }
+        </style>
+        <script>
+            document.write('<title>\uc74c\uc18c\uac70 + \uc74c\uc18c\uac70 \ud574\uc81c</title>');
+        </script>
+    </head>
+    <body>
+        <div id="hplogo" dir="ltr" title="46th Anniversary of Star Trek">
+            <div id="hplogo_spc" dir="ltr"></div>
+            <div id="hplogo_main" dir="ltr" tabindex="0"></div>
+            <div id="hplogo_cnt" dir="ltr" tabindex="1"></div>
+        </div>
+        <script type="text/javascript">
+            (function () {
+                window.google || (window.google = {});
+                google.doodle || (google.doodle = {});
+                google.doodle.url = "/search?q=Star+Trek%3A+The+Original+Series&oi=ddle&ct=startrek2012-hp";
+                google.doodle.alt = "46th Anniversary of Star Trek";
+                if (!google.doodle || !google.doodle.loaded) {
+                    var a = ["google", "doodle", "loaded"],
+                    b = this;
+                        !(a[0] in b) && b.execScript && b.execScript("var " + a[0]);
+                    for (var c; a.length && (c = a.shift());)!a.length ? b[c] = !0 : b = b[c] ? b[c] : b[c] = {};
+                    var d = document.createElement("script");
+                    d.src = "startrek/startrek12-2.js";
+                    d.async = !0;
+                    document.body.appendChild(d)
+                };
+            })();
+        </script>
+    </body>
+</html>
