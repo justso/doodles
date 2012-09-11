@@ -1,39 +1,42 @@
 @import url(goog.css);
 
-#hplogo {
-    background: none;
-    background-color: white;
-    border-radius: 3em;
-    padding: 2em 1em 0em 1em;
-}
-#fore {
-    display: inline;
-    background-color: white;
-    padding: 2em;
-    border-radius: 3em;
-    box-shadow: .5em 1.25em .25em #555;
-    min-width: 600px;
-    max-width: 900px;
-}
 body {
-    border-radius: 3em;
     text-align: center;
 }
 html {
     background-color: gray;
 }
-.fred, .fred * {
+ul {
+    padding: 0;
+}
+.bubs, .fore, .cush {
+    background-color: white;
+    border-radius: 3em;
+}
+.fore {
+    display: inline;
+    padding: 2em;
+    box-shadow: .5em 1.25em .25em #555;
+    min-width: 600px;
+    max-width: 900px;
+}
+.cush {
+    display: inline-block;
+    padding: 2em 1em 0em 1em;
+    outline: none;
+}
+.fanc, .fanc * {
     color: white;
     font: 28px 'Webfont.1', arial, sans;
     list-style: none;
     text-decoration: none;
     text-shadow: gray 0px 1px 7px;
 }
-.fred a:hover, span.fred {
+.fanc a:hover, span.fanc {
     color: red;
     text-shadow: gray 0px 1px 7px , black 0px -1px 0px;
 }
-span.fred {
+span.fanc {
     color: gray;
 }
 
