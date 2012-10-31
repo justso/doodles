@@ -7,6 +7,7 @@ html {
     background-color: gray;
 }
 ul {
+    margin: 0.7em 0 2em 0;
     padding: 0;
 }
 .bubs, .fore, .cush {
@@ -22,7 +23,7 @@ ul {
 }
 .cush {
     display: inline-block;
-    padding: 2em 1em 0em 1em;
+    padding: 1em 1em 0em 1em;
     outline: none;
 }
 .fanc, .fanc * {
@@ -31,6 +32,7 @@ ul {
     list-style: none;
     text-decoration: none;
     text-shadow: gray 0px 1px 7px;
+    -webkit-transition: color 1s ease-out 0.5s;
 }
 .fanc a:hover, span.fanc {
     color: red;
