@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Happy Halloween!</title>
+    <style>
+    #hplogo {
+        height: 220px;
+        outline: none;
+        position: relative;
+        width: 646px;
+        -moz-user-select: -moz-none;
+        -ms-user-select: none;
+        -webkit-user-select: none;
+        -webkit-tap-highlight-color: transparent
+    }
+    </style>
+    <zbase href="http://adp" />
+</head>
+
+<body>
+    <center>
+        <div dir="ltr" id="hplogo" tabindex="0"></div>
+        <script>
+(function () {
+    window.google || (window.google = {});
+    google.doodle || (google.doodle = {});
+    google.doodle.url = "/search?q=automatically+replaced";
+    google.doodle.alt = "Automatically Replaced Alt Text";
+    if (!google.doodle || !google.doodle.loaded) {
+        var a = ["google", "doodle", "loaded"],
+            b = this;
+        !(a[0] in b) && b.execScript && b.execScript("var " + a[0]);
+        for (var c; a.length && (c = a.shift());)!a.length ? b[c] = !0 : b = b[c] ? b[c] : b[c] = {};
+        var d = document.createElement("script");
+        d.src = "./halloween/halloweenmonsters12-2.js";
+        d.async = !0;
+        document.body.appendChild(d)
+    };
+})();
+        </script>
+    </center>
+</body>
+</html>
