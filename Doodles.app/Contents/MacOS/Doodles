@@ -7,5 +7,5 @@ up () {
 }
 ME=`up "${0}"`
 ME=`up "${ME}"`
-open -a Google\ Chrome.app "$ME/Resources/index.html"
+open -a Google\ Chrome.app "$ME/index.html"
 # /usr/bin/osascript -e 'tell application "Finder" to display dialog "'"${ME}"'"'
