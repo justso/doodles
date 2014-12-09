@@ -1,10 +1,27 @@
 @import url(goog.css);
 
-body {
-    text-align: center;
-}
 html {
-    background-color: gray;
+    background-color: #999;
+    border: 3em solid #8f8f8f;
+    box-sizing: border-box;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+}
+body {
+    background-color: #888;
+    border: 1em solid #8f8f8f;
+    border-radius: 33em;
+    bottom: 0;
+    height: 400px;
+    left: 0;
+    margin: auto;
+    padding: 3em;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    top: 0;
+    width: 700px;
 }
 ul {
     margin: 0.7em 0 2em 0;
