@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>CFBundleName</key>
+    <string>Doodles</string>
+    <key>CFBundleGetInfoString</key>
+    <string>Website: http://www.dvdrtrgn.com</string>
+    <key>NSHumanReadableCopyright</key>
+    <string>Copyride 2000-1999 Yo Mamma</string>
+    <key>CFBundleVersion</key>
+    <string>0.0.1</string>
+    <key>CFBundleShortVersionString</key>
+    <string>0.1</string>
+    <key>CFBundleInfoDictionaryVersion</key>
+    <string>6.0</string>
+    <key>CFBundleExecutable</key>
+    <string>Doodles</string>
+    <key>CFBundleIconFile</key>
+    <string>icon</string>
+</dict>
+</plist>
