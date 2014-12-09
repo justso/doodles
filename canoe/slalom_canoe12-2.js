@@ -1361,7 +1361,7 @@
             var b=sd(2)+" \u2013 "+sd(0)+": ";
             Fb="slalom-canoe";
             var c=window.location.protocol+"//www.google.com/doodles/slalom-canoe-2012";
-            ic("Resources/olympics12-hp-sprite.png");
+            ic("../Resources/olympics12-hp-sprite.png");
             E=q("div","hplogo_sc");
             Db=q("div","hplogo_sb");
             Cb=q("span","hplogo_sbt","hplogo_sse");
@@ -1481,7 +1481,7 @@
             e.style.display="none";
             C.appendChild(e);
             Tc=e;
-            var g=ic("canoe/slalom_canoe12-hp-sprite.png");
+            var g=ic("./slalom_canoe12-hp-sprite.png");
             Ec=new x(J,g,588,364,118,21);
             Fc=new x(J,g,588,388,22,-4,-4);
             Cc=new x(J,g,600,326,30,28,50,0);
@@ -1544,7 +1544,7 @@
             Y=[];
             for(a=0;4>a;a++)Y.push(new x(J,g,841+62*a,326,62,35));
             Y[3].o=0.2;
-            Yc=new x(wc,ic("canoe/slalom_canoe12-hp-bg.png"));
+            Yc=new x(wc,ic("./slalom_canoe12-hp-bg.png"));
             Zc=new x(wc,g,611,0,530,207);
             $c=new x(wc,g,0,235,530,207);
             yc=new x(J,g,213,38,24,194,60,-13);

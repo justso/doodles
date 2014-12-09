@@ -1169,7 +1169,7 @@
                 var b = Jc(2) + " \u2014 " + Jc(0) + ": ";
                 wb = "hurdles";
                 var c = window.location.protocol + "//www.google.com/doodles/hurdles-2012";
-                Ub("Resources/olympics12-hp-sprite.png");
+                Ub("../Resources/olympics12-hp-sprite.png");
                 L = r("div", "hplogo_sc");
                 ub = r("div", "hplogo_sb");
                 tb = r("span", "hplogo_sbt", "hplogo_sse");
@@ -1280,12 +1280,12 @@
                 e.style.display = "none";
                 G.appendChild(e);
                 pc = e;
-                var g = Ub("hurdles/hurdles12-hp-bg.png");
+                var g = Ub("./hurdles12-hp-bg.png");
                 a = function (a, b, c) {
                     return new y(Q, g, 0, b, 530, c, 0, a)
                 };
                 ec = [a(0, 1, 125), a(6, 127, 85), a(83, 215, 59), a(83, 275, 60), a(96, 337, 56), a(124, 395, 84), a(95, 481, 45), a(164, 529, 35), a(192, 565, 9)];
-                a = Ub("hurdles/hurdles12-hp-sprite.png");
+                a = Ub("./hurdles12-hp-sprite.png");
                 hc = new y(Q, a, 3245, 0, 30, 207);
                 wc = new y(Q, a, 0, 298, 120, 152, 110, 32);
                 vc = na(wc, 11, 800);
@@ -1324,7 +1324,7 @@
                 Bc = na(Cc, 7, 300);
                 ma(Bc, 600);
                 x(Bc, $c);
-                a = Ub("Resources/olympics12-hp-sprite.png");
+                a = Ub("../Resources/olympics12-hp-sprite.png");
                 qc = new y(Q, a, 316, 0, 67, 73, 232, 65);
                 U = new w;
                 x(U, function () {

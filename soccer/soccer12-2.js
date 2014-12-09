@@ -1157,8 +1157,8 @@
         (C=document.getElementById("hplogo"))?(google.doodle&&google.doodle.alt&&
             C.setAttribute("aria-label",google.doodle.alt),C.innerHTML="",a=i):a=k;
         if(a){
-            Fc=Zb("soccer/soccer12-hp-sprite.png");
-            Gc=new kc("soccer12-hp-sprite.png",lc);
+            Fc=Zb("./soccer12-hp-sprite.png");
+            Gc=new kc("./soccer12-hp-sprite.png",lc);
             if(a=r("canvas",h)){
                 a.style.position="absolute";
                 a.height=207;
@@ -1188,7 +1188,7 @@
             b=gd(2)+" \u2014 "+gd(0)+": ";
             Ab="soccer";
             var f=window.location.protocol+"//www.google.com/doodles/soccer-2012";
-            Zb("Resources/olympics12-hp-sprite.png");
+            Zb("../Resources/olympics12-hp-sprite.png");
             I=r("div","hplogo_sc");
             yb=r("div","hplogo_sb");
             xb=r("span","hplogo_sbt","hplogo_sse");
@@ -1323,7 +1323,7 @@
             v(Dc,function(){
                 id(3)
             });
-            tc=new qa(wc,Zb("soccer/soccer12-hp-bg.png"));
+            tc=new qa(wc,Zb("./soccer12-hp-bg.png"));
             uc=$(4);
             vc=$(3);
             Bc=new t;
