@@ -3,15 +3,15 @@
 <plist version="1.0">
 <dict>
     <key>CFBundleName</key>
-    <string>Doodles</string>
+    <string>Doodles.app</string>
     <key>CFBundleGetInfoString</key>
-    <string>Website: http://www.dvdrtrgn.com</string>
+    <string>http://dvdrtrgn.com</string>
     <key>NSHumanReadableCopyright</key>
-    <string>Copyride 2000-1999 Yo Mamma</string>
+    <string>© 2014 yo-momma</string>
     <key>CFBundleVersion</key>
-    <string>0.0.1</string>
+    <string>1.0.1</string>
     <key>CFBundleShortVersionString</key>
-    <string>0.1</string>
+    <string>1.0</string>
     <key>CFBundleInfoDictionaryVersion</key>
     <string>6.0</string>
     <key>CFBundleExecutable</key>
