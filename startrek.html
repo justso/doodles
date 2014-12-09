@@ -1,30 +1,38 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <!-- https://www.google.com/doodles/slalom-canoe-2012 -->
-        <title>London 2012 Canoe</title>
+        <!-- https://www.google.com/doodles/46th-anniversary-of-star-treks-1st-broadcast -->
         <style type="text/css">
             @import url(Resources/style.css);
+            @import url(startrek/style.css);
         </style>
+        <script>
+            document.write('<title>\uc74c\uc18c\uac70 + \uc74c\uc18c\uac70 \ud574\uc81c</title>');
+        </script>
+        <title>Star Trek 46th</title>
     </head>
     <body>
         <div class="fore">
-            <div id="hplogo" class="cush" dir="ltr" tabindex="0"></div>
+            <div id="hplogo" class="cush" dir="ltr" title="46th Anniversary of Star Trek">
+                <div id="hplogo_spc" dir="ltr"></div>
+                <div id="hplogo_main" dir="ltr" tabindex="0"></div>
+                <div id="hplogo_cnt" dir="ltr" tabindex="1"></div>
+            </div>
         </div>
         <span class="fanc"><br><a href="index.html" title="home">back</a></span>
-        <script>
+        <script type="text/javascript">
             (function () {
                 window.google || (window.google = {});
                 google.doodle || (google.doodle = {});
-                google.doodle.url = "/search?q=London+2012+slalom+canoe";
-                google.doodle.alt = "London 2012 Slalom Canoe";
+                google.doodle.url = "/search?q=Star+Trek%3A+The+Original+Series&oi=ddle&ct=startrek2012-hp";
+                google.doodle.alt = "46th Anniversary of Star Trek";
                 if (!google.doodle || !google.doodle.loaded) {
                     var a = ["google", "doodle", "loaded"],
                     b = this;
                         !(a[0] in b) && b.execScript && b.execScript("var " + a[0]);
                     for (var c; a.length && (c = a.shift());)!a.length ? b[c] = !0 : b = b[c] ? b[c] : b[c] = {};
                     var d = document.createElement("script");
-                    d.src = "canoe/slalom_canoe12-2.js";
+                    d.src = "startrek/startrek12-2.js";
                     d.async = !0;
                     document.body.appendChild(d)
                 };
